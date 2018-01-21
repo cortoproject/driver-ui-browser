@@ -1,0 +1,11 @@
+{
+    "id": "driver/ui/browser",
+    "type": "package",
+    "value": {
+        "description": "Browse and modify data in the virtual store",
+        "author": "Sander Mertens",
+        "version": "1.0.0",
+        "language": "none",
+        "icon": "search"
+    }
+}
