@@ -633,10 +633,7 @@ Vue.component('object-table', {
 Vue.component('plugin-browser', {
   props: ['connected', 'url', 'query_valid', 'query_string', 'query_object', 'db'],
   methods: {
-    reset() {
-      this.$emit('navigate', {});
-    },
-
+      
     // User entered a query
     search($event) {
       this.$refs.editor.close();
