@@ -26,3 +26,6 @@ To use the browser, simply install the `driver/ui/browser` package to your devic
 ```
 ## Preview
 ![preview](images/browser.png)
+
+## License
+This package is licensed under the GPL-3.0 license. It may be used as a development tool, but may not be redistributed under other (commercial) license terms. See the [LICENSE](LICENSE) file for a full description of the GPL-3.0 license.
