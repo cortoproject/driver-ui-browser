@@ -6,6 +6,7 @@
         "author": "Sander Mertens",
         "version": "1.0.0",
         "language": null,
-        "icon": "search"
+        "icon": "search",
+        "license": "GPL-3.0"
     }
 }
