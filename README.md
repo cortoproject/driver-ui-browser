@@ -24,4 +24,5 @@ To use the browser, simply install the `driver/ui/browser` package to your devic
     }
 ]
 ```
+## Preview
 ![preview](images/browser.png)
