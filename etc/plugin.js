@@ -348,7 +348,7 @@ Vue.component('object-rows', {
         result.push(
           h('object-row-template', {
             props: {
-              row: {rows: row.rows, index: [], type: row.type.elementType, rowName: '[' + i + ']', typeName: "N/A"},
+              row: {rows: row.rows, index: [], type: row.type.element_type, rowName: '[' + i + ']', typeName: "N/A"},
               value: value[i],
               connected: props.connected,
               parentMember: props.parentMember
@@ -361,11 +361,11 @@ Vue.component('object-rows', {
           })
         );
 
-        if (!row.type.elementType.isPrimitive() && !row.type.elementType.reference) {
+        if (!row.type.element_type.isPrimitive() && !row.type.element_type.reference) {
           result.push(
             h('object-row-detail-template', {
               props: {
-                row: {rows: row.rows, index: [], type: row.type.elementType, rowName: '[' + i + ']', typeName: "N/A"},
+                row: {rows: row.rows, index: [], type: row.type.element_type, rowName: '[' + i + ']', typeName: "N/A"},
                 value: value[i],
                 connected: props.connected,
                 parentMember: props.parentMember
